@@ -1,0 +1,275 @@
+/************************************************************************/
+/************************************************************************/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/************************************************************************/
+/**************************  header  ************************************/
+#header{
+    height: 70px;
+    border: 1px solid green;
+    background: linear-gradient(#fbfbfb, #e1e0de);
+    
+}
+
+#header #logo{
+    float: left;
+}
+
+#header #logo img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#header #logo h1{
+    float: left;
+}
+
+
+#header #nav{
+    float: right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+#header #nav ul{}
+
+#header #nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+}
+
+#header #nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/************************************************************************/
+/************************  slide_show  **********************************/
+#slide_show{
+    height: 400px;
+    background: linear-gradient(-90deg, #871546, #ca3e58);
+    color: white;
+}
+
+#slide_show #slide_show_img{
+    width: 400px;
+    float: left;
+}
+
+#slide_show #sleep{
+    width: 300px;
+    float: left;
+    position: absolute;
+    left: 120px;
+    top: 250px;
+}
+
+#slide_show #stand{
+    width: 140px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#slide_show #slide_show_details{
+    text-align: left;
+    width: 600px;
+    float: left;
+    position: absolute;
+    left: 650px;
+    top: 150px;
+}
+
+#slide_show #slide_show_details h1{
+    margin-bottom: 40px;
+    font-family: Caveat;
+}
+
+
+#slide_show #slide_show_details h3{
+    margin-bottom: 40px;
+}
+
+
+
+#slide_show #slide_show_details form{
+    display: inline;
+    margin-right: 10px;
+}
+
+#slide_show #slide_show_details input{
+    background-color: #e7a415;
+    color: #871546;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+
+#slide_show #slide_show_details p{
+    display: inline;
+    margin-right: 10px;
+}
+
+
+#slide_show #slide_show_details a{
+    display: inline;
+    color: white;
+    text-decoration: underline;
+}
+
+#slide_show #slide_show_details a img{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+
+
+
+/************************************************************************/
+/**************************  content  ***********************************/
+#content{
+    height: 500px;
+    background: linear-gradient(0deg, #FCFCFC, #EAEAEA,#FCFCFC);
+    
+}
+
+
+#content #content_details{
+    width: 800px;
+    height: 450px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+#content #content_details .content_details_block{
+    width: 380px;
+    float: left;
+}
+
+#content #content_details .content_details_block h3{
+    color: #881647;
+    font-size: 20px;
+}
+#content #content_details .content_details_block span{
+    font-weight: bolder;
+}
+
+
+#content #content_details .content_details_block img{
+    width: 250px;
+    height: 250px;
+}
+
+
+#content #content_details .content_details_block p{
+    text-align: justify;
+    margin: 10px;
+}
+
+#content #content_details .content_details_block a{
+    text-align: left;
+    color: #881647;
+    font-weight: bolder;
+}
+
+
+
+
+#content #twiiter{
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#content #twiiter img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    padding-top: 25px;
+}
+
+#content #twiiter h3{
+    display: inline;
+    color: #881647;
+    font-size: 20px;
+}
+
+
+#content #twiiter #buzz{
+    margin-top: 30px;
+    text-align: left;
+    background: linear-gradient(45deg, #FCFCFC, #EAEAEA);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+#content #twiiter #buzz .buzz_details{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#content #twiiter #buzz .buzz_details h4{
+    color: #881647;
+    display: inline;
+    font-weight: bolder;
+}
+
+#content #twiiter #buzz .buzz_details p{
+    display: inline;
+}
+
+
+#content #twiiter a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+/************************************************************************/
+/**************************  footer  ************************************/
+#footer{
+    height: 300px;
+    border: 1px solid red;
+    margin-bottom: 50px;
+}
+
+
+
